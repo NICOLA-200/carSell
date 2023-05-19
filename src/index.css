@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(174, 174, 241);
+  font-size: x-large;
+  font-weight: 600;
+}
+
+* {
+  box-shadow: 1px 0px 1px rgb(164, 160, 160);
+  margin: 4px;
+  border-radius: 3px;
 }
 
 code {

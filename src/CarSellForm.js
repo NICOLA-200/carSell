@@ -30,7 +30,8 @@ const CarSellForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit} style={{ position:'absolute', margin:"100px",padding30px}}>
+    
+<Form onSubmit={handleSubmit} style={{ position: 'absolute',width: "70%" ,height:"60%", margin: "10% 10%",display:"flex",flexDirection:"row",flexWrap:"wrap", padding: "30px",lineHeight:"30px",backgroundColor:"white" }}>
       <Form.Group as={Row} controlId="make">
         <Form.Label column sm={2}>Car Make:</Form.Label>
         <Col sm={10}>
